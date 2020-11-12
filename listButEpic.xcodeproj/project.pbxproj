@@ -13,6 +13,7 @@
 		8CBF7C6D255CAC1600EBF964 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBF7C6C255CAC1600EBF964 /* Preview Assets.xcassets */; };
 		8CBF7C78255CAC1600EBF964 /* listButEpicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF7C77255CAC1600EBF964 /* listButEpicTests.swift */; };
 		8CBF7C83255CAC1600EBF964 /* listButEpicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF7C82255CAC1600EBF964 /* listButEpicUITests.swift */; };
+		8CBF7C94255CACE400EBF964 /* listOstuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF7C93255CACE400EBF964 /* listOstuff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8CBF7C7E255CAC1600EBF964 /* listButEpicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listButEpicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBF7C82255CAC1600EBF964 /* listButEpicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listButEpicUITests.swift; sourceTree = "<group>"; };
 		8CBF7C84255CAC1600EBF964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBF7C93255CACE400EBF964 /* listOstuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listOstuff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		8CBF7C59255CAC1100EBF964 = {
 			isa = PBXGroup;
 			children = (
+				8CBF7C93255CACE400EBF964 /* listOstuff.swift */,
 				8CBF7C64255CAC1200EBF964 /* listButEpic */,
 				8CBF7C76255CAC1600EBF964 /* listButEpicTests */,
 				8CBF7C81255CAC1600EBF964 /* listButEpicUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CBF7C68255CAC1200EBF964 /* ContentView.swift in Sources */,
+				8CBF7C94255CACE400EBF964 /* listOstuff.swift in Sources */,
 				8CBF7C66255CAC1200EBF964 /* listButEpicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
